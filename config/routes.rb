@@ -2,6 +2,8 @@ DemoTemplateRails::Application.routes.draw do
 
   match '/auth/:provider/callback', :to => 'auth#callback'
 
+  root to: 'pages#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

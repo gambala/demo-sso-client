@@ -1,4 +1,7 @@
 DemoTemplateRails::Application.routes.draw do
+
+  match '/auth/:provider/callback', :to => 'auth#callback'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

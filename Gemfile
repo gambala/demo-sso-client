@@ -9,6 +9,9 @@ gem 'sqlite3'
 
 gem 'haml-rails'
 
+gem 'omniauth'
+gem 'omniauth-accounts', path: "~/git/omniauth-accounts"
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do

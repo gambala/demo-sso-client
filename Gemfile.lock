@@ -56,14 +56,11 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
-<<<<<<< HEAD
     faraday (0.8.7)
       multipart-post (~> 1.1)
-=======
     figaro (0.6.4)
       bundler (~> 1.0)
       rails (>= 3, < 5)
->>>>>>> upstream/master
     fssm (0.2.10)
     haml (4.0.3)
       tilt

@@ -12,6 +12,8 @@ gem 'haml-rails'
 gem 'omniauth'
 gem 'omniauth-accounts', path: "~/git/omniauth-accounts"
 
+gem "figaro"
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do

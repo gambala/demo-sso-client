@@ -8,7 +8,7 @@
 	- Get application id and secret
 - In client:
 	- Generate figaro ENV variables file with `rails generate figaro:install`
-	- Input id and secret keys ('ACCOUNTS_API_ID' and 'ACCOUNTS_API_SECRET' values)
+	- Input id and secret keys (`ACCOUNTS_API_ID` and `ACCOUNTS_API_SECRET` values)
 	- Input site_url if you run site locally or on your own server
 	- Run app with `rails s -p 4000`
 

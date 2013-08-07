@@ -10,7 +10,9 @@ gem 'sqlite3'
 gem 'haml-rails'
 
 gem 'omniauth'
-gem 'omniauth-accounts', path: "~/git/omniauth-accounts"
+gem 'omniauth-accounts'
+# gem 'omniauth-accounts', github: "gambala/omniauth-accounts"
+# gem 'omniauth-accounts', path: "~/git/omniauth-accounts"
 
 gem "figaro"
 

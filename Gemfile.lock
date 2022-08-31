@@ -79,7 +79,7 @@ GEM
       activesupport (>= 3.1, < 4.1)
       haml (>= 3.1, < 4.1)
       railties (>= 3.1, < 4.1)
-    hashie (2.0.5)
+    hashie (3.6.0)
     hike (1.2.3)
     http_parser.rb (0.5.3)
     httpauth (0.2.0)
@@ -110,9 +110,9 @@ GEM
       jwt (~> 0.1.4)
       multi_json (~> 1.0)
       rack (~> 1.2)
-    omniauth (1.1.4)
-      hashie (>= 1.2, < 3)
-      rack
+    omniauth (1.4.2)
+      hashie (>= 1.2, < 4)
+      rack (>= 1.0, < 3)
     omniauth-accounts (0.1.1)
       omniauth (~> 1.0)
       omniauth-oauth2
